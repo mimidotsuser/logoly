@@ -1,16 +1,14 @@
 <p class="text-align:center">
-<img src="https://i.loli.net/2019/03/24/5c9681455a5a2.png" alt="logo" title="logo" />
-</a>
+<img src="https://i.loli.net/2020/02/09/dULacoqDl7hpfbI.png"  alt="logo" title="logo" />
+</p>
 
-# Logoly —— A Pornhub Flavour Logo Generator
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6095e928-6e66-4f72-8c7a-ba75f4db70f3/deploy-status)](https://app.netlify.com/sites/logoly/deploys)![GitHub last commit](https://img.shields.io/github/last-commit/bestony/logoly.svg)![GitHub issues](https://img.shields.io/github/issues/bestony/logoly.svg)![GitHub stars](https://img.shields.io/github/stars/bestony/logoly.svg?style=social)
+# Logoly — A Pornhub Flavour Logo Generator
 
 **A Simple Online Logo Generator for People Who Want to Design Logos Easily.**
 
 ## Screenshot
 
-![](https://i.loli.net/2019/03/24/5c96e02e97aff.png)
+![](https://i.loli.net/2020/02/09/hEzGPdKFkSn9iZM.png)
 
 ## Features
 
@@ -21,15 +19,11 @@
 
 ## How to Use
 
-1. open the Logoly website: [https://logoly.pro/](https://logoly.pro/)
+1. open the site: [https://logoly.labskenya.com/](https://logoly.labskenya.com/)
 2. edit the text in the box
 3. change color & font size as you like
 4. click the **Export** button to download the image
 
-## TODO
-
-- share it on Facebook
-- customize fonts
 
 ## Changelog
 
@@ -37,7 +31,7 @@ See [Changelog](Changelog.md)
 
 ## How to Contribute 
 
-For those who want to request new features or submit bug reports, click [this link](https://github.com/bestony/logoly/issues/new/choose) to open a new issue.
+For those who want to request new features or submit bug reports, click [this link](https://github.com/mimidotsuser/logoly/issues/new/choose) to open a new issue.
 
 For those who want to play around with this project, read the `Get Started` section.
 
@@ -45,7 +39,7 @@ At the end of this section, I suggest you read the [Contributing Guide](Contribu
 
 ## Requirements
 
-- Node.js
+- Node.js + NPM
 
 ## Get Started
 
@@ -55,15 +49,8 @@ At the end of this section, I suggest you read the [Contributing Guide](Contribu
 4. make changes
 5. build with `npm run build`
 
-## Releated Project
-
-- [Logoly.pro MiniProgram](https://github.com/GHLandy/logoly-pro)
-
-## Sponsors
-
-[<img src="https://postimg.aliavv.com/picgo/20190331211014.png" height=40>](http://www.leancloud.app/)
-
-
+## Attribution
+This project is made possible with ❤️ by [白宦成](https://github.com/bestony/logoly)
 ## LICENSE
 
-[WTFPL 2](LICENSE)
+[MIT](LICENSE)
