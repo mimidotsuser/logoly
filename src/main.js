@@ -7,19 +7,19 @@ import VTooltip from 'v-tooltip'
 import './assets/iconfont/iconfont.css'
 import store from './store'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 Vue.use(VueAnalytics, {
-  id: 'UA-47834775-20',
+  id: 'UA-158028042-1',
   router,
   autoTracking: {
     pageviewOnLoad: false,
   },
-})
-Vue.use(VTooltip)
+});
+Vue.use(VTooltip);
 
 new Vue({
   router,
   store,
   render: h => h(App)
-}).$mount('#app')
+}).$mount('#app');
