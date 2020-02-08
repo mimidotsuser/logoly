@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <Ribbon></Ribbon>
     <div class="logo">
       <logo></logo>
     </div>
@@ -18,17 +17,10 @@
           <p class="prefix">Porn</p>
           <p class="postfix">hub</p>
         </router-link>
-        <span class="disable">
-          <span class="prefix">You</span>
-          <span class="postfix">Tube</span>
-        </span>
-        <span class="disable">More coming soon...</span>
       </div>
     </div>
     <router-view class="container"/>
-    <Slogan class="container"></Slogan>
     <Faq class="container"></Faq>
-    <Author class="container"></Author>
     <Copyright  class="container"></Copyright>
   </div>
 </template>
@@ -36,19 +28,14 @@
 <script>
 import Logo from "./components/Logo";
 import Description from "./components/Description";
-import Slogan from "./components/Slogan";
 import Faq from "./components/Faq";
-import Author from "./components/Author";
-import Ribbon from "./components/Ribbon";
 import Copyright from "./components/Copyright";
 export default {
   components: {
     logo: Logo,
     Description,
-    Slogan,
     Faq,
-    Author,
-    Ribbon,
+
     Copyright
   }
 };
@@ -79,7 +66,7 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px 0px;
+  padding: 20px 0;
 }
 .menu {
   width: 60%;
@@ -113,7 +100,7 @@ a {
   text-align: center;
 }
 .vph .prefix{
-  margin: 0px;
+  margin: 0;
   color:#fff;
 }
 .vph .postfix{
@@ -122,10 +109,6 @@ a {
   background-color: #f90;
   padding: 2px;
   border-radius: 3px;
-}
-span.disable{
-  color:#777 !important;
-  font-weight: 500;
 }
 .container{
   width: 60%;

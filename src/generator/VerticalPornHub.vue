@@ -118,7 +118,7 @@
 
 <script>
 import domtoimage from 'dom-to-image';
-const FileSaver = require('file-saver');
+
 
 export default {
     name:'pornhub',
@@ -174,8 +174,8 @@ export default {
         },
         twitter(){
             this.$ga.event('social', 'action', 'twitter', 1)
-            let url = "https://logoly.pro"
-            let text = encodeURIComponent(`Built with #LogolyPro, by @xiqingongzi ${url}`)
+            let url = "https://logoly.labskenya.com"
+            let text = encodeURIComponent(`Built with #LogolyPro, ${url}`)
             window.open(`https://twitter.com/intent/tweet?text=${text}`)
         }
     },
